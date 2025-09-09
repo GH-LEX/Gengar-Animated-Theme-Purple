@@ -1,0 +1,57 @@
+{
+  "name": "Gengar Animated",
+  "author": "LEX",
+  "manifest_version": 2,
+  "version": "20250905.0",
+  "theme": {
+    "colors": {
+      "frame": "rgb(62, 8, 104)",
+      "frame_inactive": "rgb(62, 8, 104)",
+      "tab_text": "rgb(255, 255, 255)",
+      "tab_background_text": "rgb(190, 190, 250)",
+      "tab_background_separator": "rgba(255, 255, 255, 0.5)",
+      "tab_line": "#3e0868",
+      "tab_loading": "#d10028",
+      "icons_attention": "#d10028",
+      "toolbar": "rgba(32, 32, 32, 0.25)",
+      "toolbar_top_separator": "rgba(32, 32, 32, 0.25)",
+      "toolbar_bottom_separator": "rgba(32, 32, 32, .25)",
+      "toolbar_vertical_separator": "rgba(170, 170, 170, 0.25)",
+      "toolbar_field": "rgb(18, 18, 18)",
+      "toolbar_field_text": "rgb(200, 200, 200)",
+      "toolbar_field_border": "rgb(18, 18, 18)",
+      "toolbar_field_focus": "rgb(18, 18, 18)",
+      "toolbar_field_border_focus": "rgb(30, 30, 30)",
+      "button_background_hover": "rgba(133, 133, 133, 0.25)",
+      "button_background_active": "rgba(200, 200, 200, 0.25)",
+      "icons": "rgb(200, 200, 200)",
+      "bookmark_text": "rgb(170, 170, 170)",
+      "popup": "rgb(18, 18, 18)",
+      "popup_text": "rgb(200, 200, 200)",
+      "popup_border": "rgb(18, 18, 18)",
+      "popup_highlight": "#21252B",
+      "popup_highlight_text": "rgb(255, 255, 255)",
+      "ntp_background": "rgb(18, 18, 18)",
+      "ntp_text": "rgb(170, 170, 170)",
+      "sidebar": "rgb(32, 32, 32)",
+      "sidebar_text": "rgb(170, 170, 170)",
+      "sidebar_border": "rgb(18, 18, 18)",
+      "sidebar_highlight": "#21252b",
+      "sidebar_highlight_text": "rgb(170, 170, 170)"
+    },
+    "images": {
+      "additional_backgrounds": ["Gengar.gif", "Gengar2.gif"]
+    },
+    "properties": {
+      "additional_backgrounds_alignment": ["right top", "left top"],
+      "additional_backgrounds_tiling": ["no-repeat", "no-repeat"],
+      "additional_backgrounds_position": "calc(100% - 10px) 10px, 10px 10px"
+    }
+  },
+"browser_specific_settings": {
+  "gecko": {
+    "id": "gengar-animated@lex",
+    "strict_min_version": "109.0"
+    }
+  }
+}
